@@ -1,5 +1,5 @@
 import type { App } from 'vue'
-import ProLayout from './layout'
+import ProLayout from './layout.vue'
 
 export {
   ProLayout,

@@ -1,5 +1,5 @@
 import { createStyles } from 'antdv-style'
-import type { ProLayoutProps } from '../typing.ts'
+import type { ProLayoutProps } from '../typing'
 
 export const useStyles = createStyles(({ css }, { mode }: ProLayoutProps) => {
   return {
