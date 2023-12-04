@@ -1,28 +1,30 @@
 {
   "name": "@antdv-pro/layout",
+  "type": "module",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
+  "author": "aibayanyu20 <aibayanyu@qq.com>",
   "license": "ISC",
-  "devDependencies": {
-    "@mistjs/eslint-config": "^1.0.0-beta.3",
-    "@types/node": "^20.8.4",
-    "@vitejs/plugin-vue": "^4.4.0",
-    "@vitejs/plugin-vue-jsx": "^3.0.2",
-    "eslint": "^8.51.0",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2",
-    "unplugin-vue-tsx-auto-props": "^0.4.1",
-    "vite": "^4.4.11"
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -F playground dev"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
-    "ant-design-vue": "^4.0.3",
-    "antdv-style": "0.0.1-beta.2",
+    "ant-design-vue": "^4.0.7",
+    "antdv-style": "0.0.1-beta.4",
     "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@mistjs/eslint-config": "^1.0.0",
+    "@types/node": "^20.8.4",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.5",
+    "vite-plugin-tsx-auto-props": "^0.0.6"
   }
 }

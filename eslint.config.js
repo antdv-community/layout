@@ -4,7 +4,6 @@ export default mist({
   typescript: true,
   markdown: true,
   vue: true,
-  vueJsx: true,
   ignores: [
 
   ],

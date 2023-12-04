@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue'
-import type { ProLayoutProps } from './typing.ts'
-import { useStyles } from './styles/layout.ts'
+import type { ProLayoutProps } from './typing'
+import { useStyles } from './styles/layout'
 
 const Layout = defineComponent<ProLayoutProps>(
   (props, { slots }) => {
