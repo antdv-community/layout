@@ -1,13 +1,12 @@
-import { createStyles } from 'antdv-style'
 import type { ProLayoutProps } from '../typing'
+import { createStyles } from 'antdv-style'
 
-export const useStyles = createStyles(({ css }, { mode }: ProLayoutProps) => {
+export const useStyles = createStyles(({ css }, _props: ProLayoutProps) => {
   return {
     layoutContainer: css`
         box-sizing: border-box;
-        min-height: 300px;
+        width: 100%;
         height: 100%;
-        background-color: ${mode === 'dark' ? '#001529' : '#fff'};
       `,
   }
 })

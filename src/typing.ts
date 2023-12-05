@@ -1,6 +1,11 @@
+export interface ProLayoutTheme {
+  bgColor?: string
+}
+
 export interface ProLayoutProps {
   title?: string
   mode?: 'dark' | 'light'
+  theme?: ProLayoutTheme
 }
 
 export interface ProLayoutEmits {
